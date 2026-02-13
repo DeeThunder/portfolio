@@ -37,8 +37,8 @@ const Navigation = ({ onNavigate, activeView }: NavigationProps) => {
   ]
 
   const socialLinks = [
-    { icon: <FaGithub />, url: 'https://github.com/DeeThunder' },
-    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/isaac-great-atanda-10a42a234/' },
+    { icon: <FaGithub />, url: 'https://github.com/' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/' },
   ]
 
   return (
