@@ -13,12 +13,12 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Atanda Peace | Multi-Disciplined Engineer',
-  description: 'Portfolio showcasing embedded systems, graphics design, and web development projects by Atanda Peace',
+  title: 'AP | Multi-Disciplined Engineer Portfolio ',
+  description: 'Portfolio showcasing embedded systems, graphics design, and web development projects',
   keywords: ['engineer', 'embedded systems', 'graphics design', 'web development', 'portfolio'],
   authors: [{ name: 'Atanda Peace' }],
   openGraph: {
-    title: 'Atanda Peace | Multi-Disciplined Engineer',
+    title: 'AP | Multi-Disciplined Engineer Portfolio',
     description: 'High-performance architecture across silicon, pixels, and logic',
     type: 'website',
   },

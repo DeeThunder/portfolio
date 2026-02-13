@@ -87,11 +87,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className={styles.copyright}>
           <div className={styles.copyrightText}>
-            © 2024 Atanda Peace. All rights reserved.
-          </div>
-          <div className={styles.systemVersion}>
-            <span className={styles.versionDot} />
-            SYSTEM.V2 OPERATIONAL
+            © 2026 Atanda Peace. All rights reserved.
           </div>
         </div>
       </div>

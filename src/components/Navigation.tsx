@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { HiMenu, HiX } from 'react-icons/hi'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import styles from './Navigation.module.css'
 
 interface NavigationProps {
@@ -33,6 +34,11 @@ const Navigation = ({ onNavigate, activeView }: NavigationProps) => {
     { label: 'About', id: 'about' },
     { label: 'Works', id: 'works' },
     { label: 'Connect', id: 'connect' },
+  ]
+
+  const socialLinks = [
+    { icon: <FaGithub />, url: 'https://github.com/DeeThunder' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/isaac-great-atanda-10a42a234/' },
   ]
 
   return (
@@ -92,6 +98,19 @@ const Navigation = ({ onNavigate, activeView }: NavigationProps) => {
               {item.label}
             </button>
           ))}
+          <div className={styles.mobileSocials}>
+            {socialLinks.map((link, index) => (
+              <a 
+                key={index} 
+                href={link.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={styles.mobileSocialLink}
+              >
+                {link.icon}
+              </a>
+            ))}
+          </div>
         </motion.div>
       )}
     </motion.nav>
