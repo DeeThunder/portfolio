@@ -1,10 +1,10 @@
 {
-  "name": "Atanda Peace",
-  "title": "Multi-Disciplined Engineer",
-  "email": "deethundernexus@gmail.com",
-  "bio": "Designing high-performance embedded and AI-driven systems from architecture to application",
+  "name": "Full Name",
+  "title": "Your Title",
+  "email": "[EMAIL_ADDRESS]",
+  "bio": "Your Bio",
   "social": {
-    "github": "https://github.com/DeeThunder",
-    "linkedin": "https://www.linkedin.com/in/isaac-great-atanda-10a42a234/"
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/"
   }
 }
