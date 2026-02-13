@@ -2,8 +2,6 @@
 
 A high-performance personal portfolio refactored with a **Terminal-First** experience. This project blends a tech-forward command-line interface with a sleek GUI, featuring adaptive theming and real-time communication protocols.
 
-![System Preview](https://ap-portfolio-demo.netlify.app/)
-
 ## 🚀 Key Features
 
 - **Terminal-Centric Navigation**: A fully interactive terminal that acts as the primary navigation hub.
@@ -46,4 +44,4 @@ A high-performance personal portfolio refactored with a **Terminal-First** exper
 Initialized via the `connect` command in the terminal or the Navigation link.
 
 ---
-*Developed by Atanda Peace*
+*Developed by Atanda Peace - Multi-disciplined Engineer.*
