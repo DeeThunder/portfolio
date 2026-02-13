@@ -170,3 +170,30 @@
     display: flex;
   }
 }
+.mobileSocials {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-sm);
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--spacing-sm);
+}
+
+.mobileSocialLink {
+  width: 40px;
+  height: 40px;
+  background: var(--color-bg-tertiary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-primary);
+  font-size: 1.25rem;
+  transition: all var(--transition-fast);
+}
+
+.mobileSocialLink:hover {
+  color: var(--color-accent-lime);
+  border-color: var(--color-accent-lime);
+  transform: translateY(-2px);
+}
