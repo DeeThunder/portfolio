@@ -1,6 +1,6 @@
-# Portfolio Hub V3.0
+# Portfolio Website
 
-A high-performance personal portfolio refactored with a **Terminal-First** experience. This project blends a tech-forward command-line interface with a sleek GUI, featuring adaptive theming and real-time communication protocols.
+A high-performance personal portfolio with a **Terminal** experience. This project blends a tech-forward command-line interface with a sleek GUI, featuring adaptive theming and real-time communication protocols.
 
 ## 🚀 Key Features
 
@@ -41,7 +41,4 @@ A high-performance personal portfolio refactored with a **Terminal-First** exper
    ```
 
 ## 🤝 Contact
-Initialized via the `connect` command in the terminal or the Navigation link.
-
----
-*Developed by Atanda Peace - Multi-disciplined Engineer.*
+*Developed by Atanda Peace*
