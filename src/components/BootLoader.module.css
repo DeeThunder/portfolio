@@ -1,0 +1,172 @@
+.bootLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color-bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-loader);
+  overflow: hidden;
+}
+
+.content {
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.logoIcon {
+  width: 80px;
+  height: 80px;
+  background: var(--color-accent-lime);
+  color: var(--color-bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: var(--font-mono);
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 40px rgba(196, 255, 13, 0.4);
+}
+
+.systemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.systemName {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.05em;
+}
+
+.systemStatus {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-accent-lime);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.bootSequence {
+  margin-bottom: 2rem;
+  min-height: 120px;
+}
+
+.bootMessage {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.bootMessage.active {
+  color: var(--color-accent-lime);
+}
+
+.bootMessage.complete {
+  color: var(--color-text-dim);
+}
+
+.prompt {
+  color: var(--color-accent-cyan);
+  font-weight: 700;
+}
+
+.messageText {
+  flex: 1;
+}
+
+.cursor {
+  animation: blink 1s step-end infinite;
+  color: var(--color-accent-lime);
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progressBar {
+  flex: 1;
+  height: 8px;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--color-accent-lime),
+    var(--color-accent-cyan)
+  );
+  box-shadow: 0 0 10px var(--color-accent-lime);
+  transition: width 0.1s linear;
+}
+
+.progressText {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--color-accent-lime);
+  min-width: 50px;
+  text-align: right;
+}
+
+.scanLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-accent-cyan),
+    transparent
+  );
+  animation: scan 2s linear infinite;
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    gap: 1rem;
+  }
+
+  .logoIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .systemName {
+    font-size: 1.25rem;
+  }
+
+  .bootMessage {
+    font-size: 0.75rem;
+  }
+}
