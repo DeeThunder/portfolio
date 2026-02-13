@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "id": "neural-gateway",
+      "title": "NeuralLink Gateway v2.0",
+      "category": "hardware",
+      "description": "Low-latency bridge for biometric data processing and real-time visualization.",
+      "details": "Developed a messaging-safe DMA controller in Rust to interface with CAN bus sensors. By implementing a custom RTOS-based scheduler and a hardware-accelerated FFT pipeline, we reduced data jitter by 40% compared to industry standards.",
+      "tags": ["ARM-M7", "RTOS", "C++", "UART", "1.2ms Latency"],
+      "image": "/images/projects/placeholder-01.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "embedded-rtos",
+      "title": "Embedded RTOS Core",
+      "category": "hardware",
+      "description": "Bare-metal firmware and RTOS development with sub-millisecond precision for industrial hardware.",
+      "details": "Engineered a custom RTOS kernel optimized for ARM Cortex-M4 with priority-based preemptive scheduling. Achieved 168 MHz clock speed with 99.9% uptime in production environments.",
+      "tags": ["ARM-M4", "FreeRTOS", "C", "168 MHz", "Industrial"],
+      "image": "/images/projects/placeholder-02.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "smart-sensor",
+      "title": "Smart Sensor Array",
+      "category": "hardware",
+      "description": "Multi-sensor fusion system for environmental monitoring with edge AI processing.",
+      "details": "Integrated temperature, humidity, and air quality sensors with TinyML models running on ESP32. Implemented MQTT protocol for real-time data streaming to cloud dashboard.",
+      "tags": ["ESP32", "TinyML", "MQTT", "I2C", "Edge AI"],
+      "image": "/images/projects/placeholder-03.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "iot-hub",
+      "title": "Industrial IoT Hub",
+      "category": "hardware",
+      "description": "Scalable IoT gateway for industrial automation with secure OTA updates.",
+      "details": "Built a robust IoT gateway supporting 128+ concurrent device connections. Implemented AES-256 encryption for secure data transmission and remote firmware updates.",
+      "tags": ["STM32", "LoRaWAN", "AES-256", "OTA", "128+ Nodes"],
+      "image": "/images/projects/placeholder-04.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "motor-controller",
+      "title": "Real-Time Motor Controller",
+      "category": "hardware",
+      "description": "High-precision motor control system with PID tuning and fault detection.",
+      "details": "Developed a brushless DC motor controller with FOC algorithm achieving 0.4ms response time. Integrated safety features including overcurrent protection and thermal monitoring.",
+      "tags": ["FOC", "PID", "PWM", "0.4ms", "Safety"],
+      "image": "/images/projects/placeholder-05.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "brand-identity",
+      "title": "Brand Identity System",
+      "category": "design",
+      "description": "Complete brand identity design for tech startup including logo, color palette, and guidelines.",
+      "details": "Created a comprehensive brand system with modular design components. Delivered logo variations, typography system, color palette, and 50-page brand guidelines.",
+      "tags": ["Branding", "Figma", "Illustrator", "Guidelines"],
+      "image": "/images/projects/placeholder-06.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "ui-dashboard",
+      "title": "UI/UX Dashboard Kit",
+      "category": "design",
+      "description": "Modern dashboard UI kit with 100+ components and dark mode support.",
+      "details": "Designed a comprehensive dashboard kit with reusable components, charts, tables, and forms. Implemented design system with atomic design principles.",
+      "tags": ["UI/UX", "Figma", "Design System", "100+ Components"],
+      "image": "/images/projects/placeholder-07.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "motion-graphics",
+      "title": "Motion Graphics Reel",
+      "category": "design",
+      "description": "Collection of animated graphics and visual effects for digital media.",
+      "details": "Created 20+ motion graphics pieces including logo animations, explainer videos, and social media content. Used After Effects and Cinema 4D for 3D elements.",
+      "tags": ["After Effects", "C4D", "Animation", "3D"],
+      "image": "/images/projects/placeholder-08.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "product-viz",
+      "title": "Product Visualization Suite",
+      "category": "design",
+      "description": "High-fidelity 3D product renders and interactive visualizations.",
+      "details": "Produced photorealistic 3D renders for product launches. Implemented interactive 360° viewers with WebGL for e-commerce integration.",
+      "tags": ["Blender", "WebGL", "3D Rendering", "Interactive"],
+      "image": "/images/projects/placeholder-09.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "flux-dashboard",
+      "title": "Flux Dashboard",
+      "category": "frontend",
+      "description": "High-performance data visualization interface for complex telemetry systems.",
+      "details": "Built a real-time dashboard with React and D3.js handling 10,000+ data points per second. Implemented WebSocket connections for live updates and custom chart components.",
+      "tags": ["React", "D3.js", "WebSocket", "Real-time"],
+      "image": "/images/projects/placeholder-10.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "portfolio-engine",
+      "title": "Interactive Portfolio Engine",
+      "category": "frontend",
+      "description": "Modern portfolio platform with terminal interface and dynamic content loading.",
+      "details": "Developed a Next.js-based portfolio with custom terminal emulator, lazy-loaded projects, and system boot-up animations. Optimized for performance with 95+ Lighthouse score.",
+      "tags": ["Next.js", "TypeScript", "Framer Motion", "95+ Score"],
+      "image": "/images/projects/placeholder-11.jpg",
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": "ecommerce-platform",
+      "title": "E-Commerce Platform",
+      "category": "frontend",
+      "description": "Full-featured online store with cart, checkout, and payment integration.",
+      "details": "Built a scalable e-commerce platform with Next.js, Stripe integration, and headless CMS. Implemented product search, filtering, and responsive design for mobile commerce.",
+      "tags": ["Next.js", "Stripe", "Headless CMS", "Responsive"],
+      "image": "/images/projects/placeholder-12.jpg",
+      "github": "#",
+      "demo": "#"
+    }
+  ]
+}

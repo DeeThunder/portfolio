@@ -1,0 +1,159 @@
+.terminalSection {
+  height: 100vh;
+  display: flex;
+  background: var(--color-bg-primary);
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+}
+
+.terminal {
+  background: var(--color-bg-secondary);
+  border-right: 1px solid var(--color-border);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminalHeader {
+  background: var(--color-bg-tertiary);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.terminalButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.terminalButtons span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.btnRed {
+  background: #ff5f56;
+}
+
+.btnYellow {
+  background: #ffbd2e;
+}
+
+.btnGreen {
+  background: #27c93f;
+}
+
+.terminalTitle {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.05em;
+}
+
+.terminalSession {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  color: var(--color-text-dim);
+  margin-left: auto;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.terminalBody {
+  padding: var(--spacing-lg);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.8;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.terminalLine {
+  margin-bottom: 0.25rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.terminalLine.command {
+  color: var(--color-accent-lime);
+}
+
+.terminalLine.output {
+  color: var(--color-text-secondary);
+}
+
+.terminalLine.error {
+  color: var(--color-accent-magenta);
+}
+
+.terminalLine.clickable {
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  padding: 2px 4px;
+  border-radius: var(--radius-sm);
+  width: fit-content;
+}
+
+.terminalLine.clickable:hover {
+  background: rgba(196, 255, 13, 0.1);
+  color: var(--color-accent-lime);
+  transform: translateX(4px);
+}
+
+.inputLine {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: var(--spacing-sm);
+}
+
+.prompt {
+  color: var(--color-accent-cyan);
+  font-weight: 700;
+}
+
+.input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+}
+
+.cursor {
+  animation: blink 1s step-end infinite;
+  color: var(--color-accent-lime);
+}
+
+/* Scrollbar for terminal */
+.terminalBody::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminalBody::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+.terminalBody::-webkit-scrollbar-thumb {
+  background: var(--color-bg-tertiary);
+  border-radius: 4px;
+}
+
+.terminalBody::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-lime);
+}
+
+@media (max-width: 768px) {
+  .terminalSection {
+    display: none;
+  }
+}
