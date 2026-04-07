@@ -19,7 +19,7 @@ const Contact = () => {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('https://formspree.io/f/demo', {
+      const response = await fetch('https://formspree.io/f/xwvwynlk', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ const Contact = () => {
         <div className={styles.header}>
           <h2 className={styles.title}>Send a <span className={styles.highlight}>Message</span></h2>
           <p className={styles.subtitle}>
-            Send us a message and we'll get back to you as soon as possible.
+            Send me a message and I'll get back to you as soon as possible.
           </p>
         </div>
 

@@ -13,13 +13,13 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AP | Multi-Disciplined Engineer Portfolio ',
-  description: 'Portfolio showcasing embedded systems, graphics design, and web development projects',
-  keywords: ['engineer', 'embedded systems', 'graphics design', 'web development', 'portfolio'],
-  authors: [{ name: 'Atanda Peace' }],
+  title: 'Isaac-Great Atanda | Embedded Systems Engineer Portfolio ',
+  description: 'Portfolio showcasing embedded systems, electronics, and hardware design projects',
+  keywords: ['engineer', 'embedded systems', 'electronics', 'hardware', 'portfolio'],
+  authors: [{ name: 'Atanda Isaac-Great' }],
   openGraph: {
-    title: 'AP | Multi-Disciplined Engineer Portfolio',
-    description: 'High-performance architecture across silicon, pixels, and logic',
+    title: 'Isaac-Great Atanda | Embedded Systems Engineer Portfolio',
+    description: 'Electrical and Electronics Engineer and founder of DeeThunderNexus Ventures',
     type: 'website',
   },
 }

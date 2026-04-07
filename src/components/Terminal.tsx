@@ -83,9 +83,8 @@ const Terminal = ({ onNavigate }: TerminalProps) => {
 
       case 'social':
         addToHistory({ type: 'output', content: 'External Relays:' })
-        addToHistory({ type: 'output', content: '  GitHub:   https://github.com', url: 'https://github.com' })
-        addToHistory({ type: 'output', content: '  LinkedIn: https://linkedin.com', url: 'https://linkedin.com' })
-        addToHistory({ type: 'output', content: '  Behance:  https://behance.net', url: 'https://behance.net' })
+        addToHistory({ type: 'output', content: '  GitHub:   https://github.com/DeeThunder', url: 'https://github.com/DeeThunder' })
+        addToHistory({ type: 'output', content: '  LinkedIn: https://linkedin.com/in/isaac-great-atanda-10a42a234/', url: 'https://linkedin.com/in/isaac-great-atanda-10a42a234/' })
         break
 
       case 'clear':

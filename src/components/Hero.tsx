@@ -37,9 +37,9 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
           >
             <h1 className={styles.title}>
-              Hub & <span className={styles.highlight}>Resume</span>
+              Isaac-Great <span className={styles.highlight}>Atanda</span>
             </h1>
-            <p className={styles.subtitle}>Multi-disciplined Engineer</p>
+            <p className={styles.subtitle}>Embedded Systems Engineer</p>
 
             {/* CV Card */}
             <div className={styles.cvCard}>
@@ -62,14 +62,19 @@ const Hero = () => {
                 </svg>
               </div>
               <div className={styles.cvInfo}>
-                <h3>Full name CV</h3>
-                <p>Embedded • Graphics • Frontend</p>
+                <h3>Isaac-Great Atanda CV</h3>
+                <p>Embedded Systems • Electronics • Content Creator</p>
               </div>
               <div className={styles.cvActions}>
-                <button className={styles.btnDownload}>
+                <a 
+                  href="/pdf/Atanda Isaac-great RESUME.pdf" 
+                  download="Isaac-Great-Atanda-CV.pdf"
+                  className={styles.btnDownload}
+                  style={{ textDecoration: 'none' }}
+                >
                   <HiDownload />
                   Download CV.pdf
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>

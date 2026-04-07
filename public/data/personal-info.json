@@ -1,10 +1,10 @@
 {
-  "name": "Full Name",
-  "title": "Your Title",
-  "email": "[EMAIL_ADDRESS]",
-  "bio": "Your Bio",
+  "name": "Atanda Isaac-Great",
+  "title": "Embedded Systems Engineer",
+  "email": "atandaisaacgreat@gmail.com",
+  "bio": "Isaac-Great Atanda is a Nigerian Electrical and Electronics Engineering graduate (First Class Honours, Bells University of Technology) and founder/CEO of DeeThunderNexus Ventures, an educational electronics platform. He works as a freelance hardware engineer, content creator, and educator, having trained students in embedded systems.",
   "social": {
-    "github": "https://github.com/",
-    "linkedin": "https://www.linkedin.com/"
+    "github": "https://github.com/DeeThunder",
+    "linkedin": "https://linkedin.com/in/isaac-great-atanda-10a42a234/"
   }
 }

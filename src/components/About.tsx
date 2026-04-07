@@ -13,23 +13,23 @@ const About = ({ onNavigate }: AboutProps) => {
     {
       icon: <FaMicrochip />,
       title: 'EMBEDDED SYSTEMS',
-      description: 'Bare-metal firmware and RTOS development with sub-millisecond precision for industrial hardware.',
+      description: 'Firmware design, microcontrollers, and IoT solutions for modern hardware applications.',
       color: 'lime',
-      stats: { label: 'SUCCESSFUL NODES', value: '48+' },
+      stats: { label: 'DEVICES PROGRAMMED', value: '15+' },
     },
     {
       icon: <FaPalette />,
-      title: 'GRAPHICS DESIGN',
-      description: 'UI/UX design, branding, and visual systems that merge aesthetics with functionality.',
+      title: 'CONTENT CREATOR',
+      description: 'Founder of DeeThunderNexus Ventures, creating educational electronics and tech content.',
       color: 'magenta',
-      stats: { label: 'PROJECTS DELIVERED', value: '32+' },
+      stats: { label: 'STUDENTS REACHED', value: '100+' },
     },
     {
       icon: <FaCode />,
-      title: 'FRONTEND',
-      description: 'Modern web applications with React, Next.js, and cutting-edge frontend technologies.',
+      title: 'STEM EDUCATOR',
+      description: 'Training and mentoring the next generation of engineers in embedded systems and electronics.',
       color: 'cyan',
-      stats: { label: 'APPS DEPLOYED', value: '24+' },
+      stats: { label: 'WORKSHOPS LED', value: '5+' },
     },
   ]
 
@@ -44,15 +44,15 @@ const About = ({ onNavigate }: AboutProps) => {
           transition={{ duration: 0.6 }}
         >
           <h2 className={styles.title}>
-            <span className={styles.titleLine}>DESIGNER.</span>
+            <span className={styles.titleLine}>HARDWARE.</span>
             <span className={`${styles.titleLine} ${styles.highlight}`}>ENGINEER.</span>
-            <span className={styles.titleLine}>DEVELOPER.</span>
+            <span className={styles.titleLine}>EDUCATOR.</span>
           </h2>
           <p className={styles.tagline}>
-            High-performance architecture across{' '}
-            <span className={styles.accentLime}>silicon</span>,{' '}
-            <span className={styles.accentMagenta}>pixels</span>, and{' '}
-            <span className={styles.accentCyan}>logic</span>.
+            High-performance engineering across{' '}
+            <span className={styles.accentLime}>hardware</span>,{' '}
+            <span className={styles.accentMagenta}>firmware</span>, and{' '}
+            <span className={styles.accentCyan}>education</span>.
           </p>
         </motion.div>
 
