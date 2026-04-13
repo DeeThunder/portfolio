@@ -3,9 +3,9 @@
   --color-bg-primary: #0a0a0a;
   --color-bg-secondary: #1a1a1a;
   --color-bg-tertiary: #252525;
-  --color-accent-lime: #c4ff0d;
-  --color-accent-cyan: #00d9ff;
-  --color-accent-magenta: #ff006b;
+  --color-accent-lime: #cf9a5b; /* Warm tone / Gold */
+  --color-accent-cyan: #3b82f6; /* Slate Blue */
+  --color-accent-magenta: #1e3a8a; /* Deep Navy */
   --color-accent-yellow: #f5c400;
   --color-text-primary: #ffffff;
   --color-text-secondary: #a0a0a0;
@@ -47,9 +47,9 @@
     --color-bg-primary: #f5f5f7;
     --color-bg-secondary: #ffffff;
     --color-bg-tertiary: #e5e5e7;
-    --color-accent-lime: #a3d900;
-    --color-accent-cyan: #007aff;
-    --color-accent-magenta: #d7005f;
+    --color-accent-lime: #b4854d;
+    --color-accent-cyan: #2563eb;
+    --color-accent-magenta: #1e3a8a;
     --color-accent-yellow: #c49a00;
     --color-text-primary: #1d1d1f;
     --color-text-secondary: #48484a;

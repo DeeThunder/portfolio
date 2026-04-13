@@ -50,7 +50,9 @@ const Navigation = ({ onNavigate, activeView }: NavigationProps) => {
     >
       <div className={styles.container}>
         <div className={styles.logo} onClick={() => handleNavClick('home')}>
-          <div className={styles.logoIcon}>AP</div>
+          <div className={styles.logoIcon} style={{ padding: 0, overflow: 'hidden' }}>
+            <img src="/images/headshot.jpeg" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          </div>
           <div className={styles.logoText}>
             <span className={styles.systemLabel}>Portfolio</span>
             <span className={styles.statusDot} />

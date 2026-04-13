@@ -9,8 +9,7 @@
 }
 
 .nav.scrolled {
-  background: rgba(10, 10, 10, 0.95);
-  backdrop-filter: blur(10px);
+  background: var(--color-bg-primary); /* Fully solid background so content underneath isn't visible */
   border-bottom: 1px solid var(--color-border);
   padding: var(--spacing-sm) 0;
 }

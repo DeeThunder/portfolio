@@ -46,18 +46,6 @@
   },
   
   {
-    "id": "voltsentry",
-    "title": "VoltSentry – US Power Grid Stress Intelligence",
-    "category": "software",
-    "description": "MCP tool for real-time US power grid stress analysis using NERC's Severity Risk Index (SRI) as the unbundling target.",
-    "details": "Developed as a CTX Protocol developer grant submission. Ingests NERC SRI data to surface grid stress intelligence, enabling proactive grid management decisions. Resubmitted with strategic reframing after initial reviewer feedback.",
-    "tags": ["MCP", "Node.js", "NERC", "Power Grid", "SRI", "CTX Protocol"],
-    "image": "/images/projects/placeholder-03.jpg",
-    "github": "https://github.com/DeeThunder/Voltsentry",
-    "demo": "#"
-  },
-
-  {
   "id": "stdr-3phase-fault-detection",
   "title": "STDR Fault Detection on 3-Phase Power Lines",
   "category": "research",
@@ -91,6 +79,18 @@
   "image": "/images/projects/dcmg-cyber-attack-detection.png",
   "github": "https://github.com/DeeThunder/Kalman-Filter-Based-Cyber-Attack-Detection-Scheme-for-Data-Integrity-in-DC-Microgrid-Communications",
   "demo": "#"
+  },
+
+   {
+    "id": "voltsentry",
+    "title": "VoltSentry – US Power Grid Stress Intelligence",
+    "category": "software",
+    "description": "MCP tool for real-time US power grid stress analysis using NERC's Severity Risk Index (SRI) as the unbundling target.",
+    "details": "Developed as a CTX Protocol developer grant submission. Ingests NERC SRI data to surface grid stress intelligence, enabling proactive grid management decisions. Resubmitted with strategic reframing after initial reviewer feedback.",
+    "tags": ["MCP", "Node.js", "NERC", "Power Grid", "SRI", "CTX Protocol"],
+    "image": "/images/projects/placeholder-03.jpg",
+    "github": "https://github.com/DeeThunder/Voltsentry",
+    "demo": "#"
   },
 
   {

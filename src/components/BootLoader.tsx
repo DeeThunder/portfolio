@@ -51,7 +51,9 @@ const BootLoader = () => {
     >
       <div className={styles.content}>
         <div className={styles.logo}>
-          <div className={styles.logoIcon}>AP</div>
+          <div className={styles.logoIcon} style={{ padding: 0, overflow: 'hidden' }}>
+            <img src="/images/headshot.jpeg" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          </div>
           <div className={styles.systemInfo}>Portfolio</div>
         </div>
 
