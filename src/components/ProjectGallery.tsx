@@ -36,9 +36,9 @@ const ProjectGallery = () => {
 
   const categories = [
     { id: 'all', label: 'ALL' },
-    { id: 'hardware', label: 'HARDWARE' },
-    { id: 'design', label: 'DESIGN' },
-    { id: 'frontend', label: 'FRONTEND' },
+    { id: 'embedded and hardware', label: 'EMBEDDED AND HARDWARE' },
+    { id: 'research', label: 'RESEARCH' },
+    { id: 'software', label: 'SOFTWARE' },
   ]
 
   const handleCategoryChange = (categoryId: string) => {
@@ -58,12 +58,12 @@ const ProjectGallery = () => {
 
   const getCategoryColor = (category: string) => {
     switch (category) {
-      case 'hardware':
+      case 'embedded and hardware':
         return 'lime'
-      case 'design':
-        return 'magenta'
-      case 'frontend':
+      case 'research':
         return 'cyan'
+      case 'software':
+        return 'yellow'
       default:
         return 'lime'
     }
@@ -112,9 +112,13 @@ const ProjectGallery = () => {
                 onClick={() => setSelectedProject(project)}
               >
                 <div className={styles.projectImage}>
-                  <div className={styles.imagePlaceholder}>
-                    {project.title.substring(0, 2).toUpperCase()}
-                  </div>
+                  {project.image && project.image !== '#' && project.image !== '' && !project.image.includes('placeholder') ? (
+                    <img src={project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : (
+                    <div className={styles.imagePlaceholder}>
+                      {project.title.substring(0, 2).toUpperCase()}
+                    </div>
+                  )}
                   <div className={`${styles.categoryBadge} ${styles[getCategoryColor(project.category)]}`}>
                     {project.category.toUpperCase()}
                   </div>

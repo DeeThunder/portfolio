@@ -1,5 +1,8 @@
 .hero {
-  padding: var(--spacing-2xl) var(--spacing-xl);
+  padding: calc(var(--spacing-2xl) + 80px) var(--spacing-xl) var(--spacing-2xl);
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
   position: relative;
   overflow: hidden;
 }

@@ -15,19 +15,6 @@ const Hero = () => {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.container}>
-        {/* Status Indicators */}
-        <motion.div
-          className={styles.statusBar}
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-        >
-          <div className={styles.statusItem}>
-            <span className={styles.statusDotActive} />
-            <span>ACTIVE_MODE</span>
-          </div>
-        </motion.div>
-
         {/* Main Content */}
         <div className={styles.content}>
           <motion.div
@@ -63,7 +50,7 @@ const Hero = () => {
               </div>
               <div className={styles.cvInfo}>
                 <h3>Isaac-Great Atanda CV</h3>
-                <p>Embedded Systems • Electronics • Content Creator</p>
+                <p>Embedded Systems • Electronics • Researcher</p>
               </div>
               <div className={styles.cvActions}>
                 <a 
@@ -87,7 +74,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
           >
             <div className={styles.profileImage}>
-              <div className={styles.profilePlaceholder}>AP</div>
+              <img src="/images/headshot.jpeg" alt="Isaac-Great Atanda" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
           </motion.div>
         </div>

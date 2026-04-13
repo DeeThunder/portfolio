@@ -6,6 +6,7 @@
   --color-accent-lime: #c4ff0d;
   --color-accent-cyan: #00d9ff;
   --color-accent-magenta: #ff006b;
+  --color-accent-yellow: #f5c400;
   --color-text-primary: #ffffff;
   --color-text-secondary: #a0a0a0;
   --color-text-dim: #707070;
@@ -49,6 +50,7 @@
     --color-accent-lime: #a3d900;
     --color-accent-cyan: #007aff;
     --color-accent-magenta: #d7005f;
+    --color-accent-yellow: #c49a00;
     --color-text-primary: #1d1d1f;
     --color-text-secondary: #48484a;
     --color-text-dim: #86868b;

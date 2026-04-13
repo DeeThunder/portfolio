@@ -135,6 +135,11 @@
   color: var(--color-accent-cyan);
 }
 
+.categoryBadge.yellow {
+  border: 1px solid var(--color-accent-yellow);
+  color: var(--color-accent-yellow);
+}
+
 .projectContent {
   padding: var(--spacing-lg);
 }
@@ -279,6 +284,12 @@
   background: rgba(0, 217, 255, 0.1);
   border: 1px solid var(--color-accent-cyan);
   color: var(--color-accent-cyan);
+}
+
+.modalBadge.yellow {
+  background: rgba(245, 196, 0, 0.1);
+  border: 1px solid var(--color-accent-yellow);
+  color: var(--color-accent-yellow);
 }
 
 .modalDetails {
